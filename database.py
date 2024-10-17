@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 # YouTube API setup
-api_key = 'AIzaSyDyAUJ9rNmhs-haZQaIuQy4k9LnAv_2PzI'
+api_key = 'Api key use '
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Function to get video details including tags
